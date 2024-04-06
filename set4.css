@@ -1,0 +1,13 @@
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border:2px solid black ;
+}
+#content{
+    height: 500px;
+}
+footer{
+    background-color:#0f1111 ;
+    color: white;
+    text-align: center;
+}

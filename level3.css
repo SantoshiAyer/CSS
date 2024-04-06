@@ -1,0 +1,46 @@
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+    font-size: 10px;
+}
+#box2{
+    height: 100px;
+    width: 50px;
+    background-color: chartreuse;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+} */
+div{
+    height:100px ;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+
+}
+#box1{
+    position: static;
+    top:10px;
+    
+
+
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#box3{
+    position: sticky;
+    top: 500px;
+    left: 20px;
+}
+#box4{
+    position: fixed;
+    top: 0;
+}
+#box1{
+    background-image:url("sanu.jpg");
+    background-size:cover;
+}

@@ -1,0 +1,28 @@
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    border: 10px solid black;
+    /* position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count:5; */
+    border-top: 20px solid coral;
+    animation: spinAnimate 3s ease-in 0s infinite normal;
+}
+@keyframes spinAnimate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(260deg) ;
+    }
+}
+    
+div:hover{
+
+}

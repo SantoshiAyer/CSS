@@ -1,0 +1,21 @@
+p{
+    color: rgb(255, 0, 119);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration:underline ;
+}
+button{
+    color: brown;
+}
+body{
+    background-color: chartreuse;
+}
+#box{
+    background-color: aqua;
+    /* color:white; */
+}
+.heading{
+    color: red;
+}

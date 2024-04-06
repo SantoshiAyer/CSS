@@ -1,0 +1,31 @@
+.navbar{
+    background-color:pink ;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+/* Use flexbox to center one div inside another div. */
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 168, 43);
+}
+/* align item is used in container but align self is used in individual flex item. */
+/* align self has higher priority than align item. */

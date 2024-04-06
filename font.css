@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(186, 30, 210);
+    border-width:2px ;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    border-radius: 25px;
+    /* padding-left:25px ;
+    padding-right: 25px;
+    padding-bottom: 25px; */
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+h1{
+    height: fit-content;
+    width: 200px;
+    background-color: aqua;
+    border-width: 3px;
+    border-style: double;
+    border-color: blueviolet;
+    text-align: center;
+}
